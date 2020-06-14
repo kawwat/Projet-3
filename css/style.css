@@ -119,16 +119,12 @@ p
 	box-shadow: 3px 3px 3px 3px black;
 	margin-bottom: 20%;
 }
-.palette p
-{
-	color: rgb(114,191,86);
-}
 
 .bientot
 {
 	background-color: rgb(87,156,135);
 	color: rgb(252,202,70);
-	font-size: 1.8em;
+	font-size: 0.5em;
 	text-align: center;
 	width: 50%;
 	margin: auto;
