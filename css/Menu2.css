@@ -1,0 +1,88 @@
+.chic
+{
+	width: 80%;
+	height: auto;
+	margin-bottom: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.chic,h2
+{
+	font-size: 1.1em;
+}
+
+.repas,.prix,.dessert,p
+{
+	font-size: 0.5em;
+	margin: 5px 0px ;
+}
+
+ul 
+{
+	padding: 0;
+	line-height: 1.7;
+}
+
+ul li
+{
+	width: 	100%;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;	
+}
+
+.repas
+{
+	text-align: left;
+	width: 90%;
+}
+
+.prix .dessert
+{
+	text-align: right;
+	width: 10%;
+}
+
+img
+{
+	width: 35%;
+	max-width: 100%;
+	height: auto;
+}
+
+.intitule
+{
+	display: flex;
+	justify-content: space-between; 
+}
+
+.intitule p
+{
+	font-size: 0.9em;
+	margin: 0; 
+}
+
+.footer-menu
+{
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+h4
+{
+	margin-left: 5px;
+}
+
+@media all and (min-width: 850px)
+{
+	.chic
+	{
+		width: 1185px;
+		height: 1680px;
+		margin: 195px 158px 135px;
+		font-size: 3em;
+		margin-bottom: 20%;
+	}
+}

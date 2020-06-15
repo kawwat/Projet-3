@@ -213,37 +213,22 @@ a
 		font-size: 2.2em;
 	}
 
-	.note
+	.note,.delice
 	{
 		width: 535px;
 		height: 755px;
 		margin: 100px 50px 45px 165px;
-	    box-shadow: 3px 3px 3px black;
+		/*transform: scale(1);
+		opacity: 1;
+		transition: all 400ms;*/
 	    
 	}
 
-	.chic
+	.chic,.palette
 	{
 		width: 535px;
 		height: 755px;
 		margin: 100px 165px 45px 50px;
-		box-shadow: 3px 3px 3px black;
-	}
-
-	.delice
-	{
-		width: 535px;
-		height: 755px;
-		margin: 100px 50px 95px 165px;
-		box-shadow: 3px 3px 3px black;
-	}
-
-	.palette
-	{
-		width: 535px;
-		height: 755px;
-		margin: 100px 165px 95px 50px;
-		box-shadow: 3px 3px 3px black;
 	}
 
 	.bientot

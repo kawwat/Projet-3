@@ -21,6 +21,7 @@
 ul 
 {
 	padding: 0;
+	line-height: 1.7;
 }
 
 ul li
@@ -74,36 +75,15 @@ h4
 	margin-left: 5px;
 }
 
-/*@media all and (min-width: 850px)
+@media all and (min-width: 850px)
 {
 	.note
 	{
 		width: 1185px;
 		height: 1680px;
 		margin: 195px 158px 135px;
-		padding: 15em;
-		box-sizing: border-box;
+		font-size: 3em;
+		margin-bottom: 20%;
+		padding: 0px 70px;
 	}
-
-	.position
-	{
-		width: 940px;
-		margin: auto;
-		display: flex;
-		justify-content: space-between;
-	}
-	
-	.texte
-	{
-		text-align: left;
-		letter-spacing: 0.5px;
-	}
-
-	.final
-	{
-		width: 940px;
-		margin: auto;
-		text-align: left;
-		letter-spacing: 0.5px;
-	}
-}	*/
+}
