@@ -49,15 +49,20 @@ h1
 	padding-top: 20px;
 }
 
+.row,h2
+{
+	margin-top: 2%;
+	font-size: 0.8em;
+}
 a
 {
 	text-decoration: none;
 	color: currentColor;
 }
 
-p
+.menu .menu-top p
 {
-	font-size: 3em;
+	font-size: 1em;
 }
 
 .header
@@ -72,16 +77,30 @@ p
 	border-bottom: 2px solid #a1c181;
 }
 
+.menu
+{
+	width: 90%;
+	margin: auto;
+}
+.row
+{ 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 .note
 {
 	background-color: rgb(253,225,221);
 	color: rgb(60,18,24);
 	text-align: center;
-	width: 90%;
-	height: 600px;
+	width: 44%;
+	height: 300px;
 	margin: auto;
-    box-shadow: 3px 3px 3px 3px black;
-    margin-bottom: 20%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .chic
@@ -89,11 +108,14 @@ p
 	background-color: rgb(255,245,254 );
 	color: rgb(199,116,18);
 	text-align: center;
-	width: 90%;
-	height: 600px;
+	width: 44%;
+	height: 300px;
 	margin: auto;
-	box-shadow: 3px 3px 3px 3px black;
-	margin-bottom: 20%;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	margin-bottom: 40px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .delice
@@ -101,11 +123,14 @@ p
 	background-color: rgb(249,249,249);
 	color: rgb(131,192,250);
 	text-align: center;
-	width: 90%;
-	height: 600px;
+	width: 44%;
+	height: 300px;
 	margin: auto;
-	box-shadow: 3px 3px 3px 3px black;
-	margin-bottom: 20%;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	margin-bottom: 40px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .palette
@@ -113,20 +138,23 @@ p
 	background-color: rgb(253,255,253);
 	color: rgb(114,191,86);
 	text-align: center;
-	width: 90%;
-	height: 600px;
+	width: 44%;
+	height: 300px;
 	margin: auto;
-	box-shadow: 3px 3px 3px 3px black;
-	margin-bottom: 20%;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	margin-bottom: 40px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .bientot
 {
 	background-color: rgb(87,156,135);
 	color: rgb(252,202,70);
-	font-size: 0.5em;
 	text-align: center;
-	width: 50%;
+	width: 40%;
+	height: 20px;
 	margin: auto;
 	margin-top: 5%;
 	margin-bottom: 5%;
@@ -142,7 +170,7 @@ p
 	justify-content: space-between;
 	margin: auto;
 	padding: 10px 20px;
-	font-size: 1.4em;
+	font-size: 1em;
 	/*position: fixed;*/
 	bottom: 0;
 	border-top: 2px solid #a1c181;
