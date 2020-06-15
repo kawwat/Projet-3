@@ -159,10 +159,12 @@ a
 	margin: auto;
 	margin-top: 5%;
 	margin-bottom: 20%;
-	border-radius: 12px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	border-radius: 20px;	
+}
+
+.bientot p 
+{
+	margin: 0;
 }
 
 .pied
@@ -183,20 +185,13 @@ a
 	box-sizing: border-box;
 }
 
-/*@media all and (min-width: 850px)
+@media all and (min-width: 850px)
 {
 	body
 	{
 		width: 1500px;
 		height: auto;
 		margin: auto;
-	}
-
-	#conteneur
-	{
-		display: flex;
-		flex-flow: wrap;
-		justify-content: space-evenly;
 	}
 
 	.header
@@ -206,6 +201,16 @@ a
 		font-size: 4em;
 		text-align: center;
 		margin: 0;
+	}
+
+	.menu
+	{
+		width: 100%;
+	}
+
+	h2
+	{
+		font-size: 2.2em;
 	}
 
 	.note
@@ -245,20 +250,15 @@ a
 	{
 		width: 650px;
 		height: 115px;
-		margin-top: 0%; 
-		margin-bottom: 85px;
 		font-size: 3.4em;
-		padding-top: 20px;
-		box-sizing: border-box;
 	}
 
 	.pied
 	{
-		font-size: 3em;
-		padding: 35px 30px;
-		position: relative;
 		width: 100%;
 		height: 140px;
+		font-size: 3em;
+		padding: 35px 30px;
 		box-sizing: border-box;
 	}
 
@@ -293,7 +293,7 @@ a
 		letter-spacing: 0.5px;
 	}  */
 
-	/* Menu Le chic à la Française */
+	/*Menu Le chic à la Française*/
 
 	/*.chic
 	{
@@ -302,7 +302,7 @@ a
 		margin: 195px 158px 135px;
 	}
 	
-	.gourmandise
+	/*.gourmandise
 	{
 		width: 940px;
 		margin: auto;
