@@ -1,3 +1,21 @@
+@font-face
+{
+	font-family: 'kaushan';
+
+	src: url('contenu/font/KaushanScript-Regular.ttf') format("truetype");
+	font-weight: 400;
+}
+
+body
+{
+	font-family: 'kaushan';
+}
+
+p
+{
+	color: black;
+}
+
 .palette
 {
 	width: 80%;

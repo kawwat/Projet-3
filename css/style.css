@@ -29,9 +29,39 @@ Texte: #72bf56
 color border top and bottom:
 		#a1c181
 		rgb 161 193 129
-
-
 */
+@font-face
+{
+	font-family: 'devonshire';
+	src: url('contenu/font/Devonshire-Regular.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'croissant';
+	src: url('contenu/font/CroissantOne-Regular.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'dancing';
+	src: url('contenu/font/DancingScript-Regular.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'kaushan';
+	src: url('contenu/font/KaushanScript-Regular.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
 body
 {
 	font-family: Arial, Courier New, Georgia, Times New Roman, Verdana, sans-serif;
@@ -52,7 +82,7 @@ h1
 .row,h2
 {
 	margin-top: 2%;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 a
@@ -102,6 +132,7 @@ a
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: devonshire;
 }
 
 .chic
@@ -117,6 +148,7 @@ a
 	display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: croissant;
 }
 
 .delice
@@ -132,6 +164,7 @@ a
 	display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: dancing;
 }
 
 .palette
@@ -147,6 +180,7 @@ a
 	display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: kaushan;
 }
 
 .bientot
