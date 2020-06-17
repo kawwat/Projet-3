@@ -113,6 +113,7 @@ img
 	width: 90%;
 	margin: auto;
 }
+
 .row
 { 
 	display: flex;
@@ -125,9 +126,6 @@ img
 	margin-top: 2%;
 	font-size: 1em;
 }
-
-
-
 
 .note /*menu 1*/
 {
@@ -230,7 +228,7 @@ img
 
 /*****css pour l'ensemble des menu */
 
-.note,.chic,.delice,.palette
+/*.note,.chic,.delice,.palette
 {
 	width: 80%;
 	height: auto;
@@ -247,7 +245,7 @@ img
 .note,.delice,.palette p
 {
 	color: black;
-}
+}*/
 
 
 
@@ -319,6 +317,21 @@ img
 		font-size: 3em;
 		padding: 35px 30px;
 	}
+
+	.row
+	{ 
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.row,h2
+	{
+		margin-top: 2%;
+		font-size: 1em;
+	}
+
+}	
 
 	/* Menu La note enchantée 
 
