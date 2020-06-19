@@ -206,6 +206,8 @@ a
 .bientot p 
 {
 	font-size: 1em;
+	margin: 0;
+	margin-top: 1%;
 }
 
 .pied /* footer*/
@@ -219,8 +221,8 @@ a
 	margin: auto;
 	padding: 10px 20px;
 	font-size: 1em;
-	position: fixed;
-	bottom: 0;
+	/*position: fixed;
+	bottom: 0;*/
 	border-top: 2px solid #a1c181;
 	box-sizing: border-box;
 }
