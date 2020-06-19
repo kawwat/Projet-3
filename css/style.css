@@ -71,6 +71,18 @@ body
 	margin: 0;
 }	
 
+.header
+{	
+	width: 100%;
+	height: 120px;
+	font-size: 1.5em;
+	background-color: rgb(87,156,135);
+	color: rgb(252,202,70);
+	text-align: center;
+	margin-bottom: 10%;
+	border-bottom: 2px solid #a1c181;
+}
+
 h1
 {
 	width: 100%;
@@ -83,29 +95,6 @@ a
 {
 	text-decoration: none;
 	color: currentColor;
-}
-
-.photo
-{
-	width: 35%;
-}
-
-img
-{
-	width: 100%;
-	height: auto;
-}
-
-.header
-{	
-	width: 100%;
-	height: 120px;
-	font-size: 1.5em;
-	background-color: rgb(87,156,135);
-	color: rgb(252,202,70);
-	text-align: center;
-	margin-bottom: 10%;
-	border-bottom: 2px solid #a1c181;
 }
 
 .menu
@@ -124,6 +113,11 @@ img
 .row,h2
 {
 	margin-top: 2%;
+	font-size: 1.1em;
+}
+
+.lien
+{
 	font-size: 1em;
 }
 
@@ -191,7 +185,7 @@ img
     font-family: kaushan;
 }
 
-.bientot
+.bientot /* prochainement */
 {
 	background-color: rgb(87,156,135);
 	color: rgb(252,202,70);
@@ -209,7 +203,7 @@ img
 	margin: 0;
 }
 
-.pied
+.pied /* footer*/
 {
 	width: 100%;
 	height: 50px;
@@ -226,30 +220,64 @@ img
 	box-sizing: border-box;
 }
 
-/*****css pour l'ensemble des menu */
+/*****css pour l'ensemble des menu ****/
 
-/*.note,.chic,.delice,.palette
+.repas,.prix,.dessert,p
 {
-	width: 80%;
+	font-size: 0.5em;
+	margin: 5px 0px ;
+}
+
+ul 
+{
+	line-height: 2;
+	font-size: 0.8em;
+	padding: 0 50px;
+}
+
+ul li
+{
+	width: 	100%;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;	
+}
+
+.repas
+{
+	text-align: left;
+	width: 90%;
+}
+
+.prix .dessert
+{
+	text-align: right;
+	width: 10%;
+}
+
+.intitule
+{
+	display: flex;
+	justify-content: space-between; 
+}
+
+.intitule p
+{
+	font-size: 0.4em;
+	margin: 0; 
+	font-weight: bold;
+}
+
+.photo
+{
+	width: 35%;
+}
+
+img
+{
+	width: 100%;
 	height: auto;
-	margin-bottom: 25%;
-	padding: 20px;
-	box-sizing: border-box;
 }
-
-.note,.chic,.delice,.palette,h2
-{
-	font-size: 1.1em;
-}
-
-.note,.delice,.palette p
-{
-	color: black;
-}*/
-
-
-
-
 
 @media all and (min-width: 800px)
 {
@@ -281,8 +309,12 @@ img
 
 	h2
 	{
-		font-size: 2.2em;
 		margin: 0;
+	}
+
+	ul
+	{
+		padding: 0 120px;
 	}
 
 	.note,.delice
@@ -328,75 +360,16 @@ img
 	.row,h2
 	{
 		margin-top: 2%;
-		font-size: 1em;
+		font-size: 1.6em;
 	}
-
+	
+	.francaise
+	{
+		font-size: 1.2em;
+	}
+	.lien
+	{
+		font-size: 2em;
+		margin-top: 5%;
+	}
 }	
-
-	/* Menu La note enchantée 
-
-	.note
-	{
-		width: 1185px;
-		height: 1680px;
-		margin: 195px 158px 135px;
-	}
-
-	.position
-	{
-		width: 940px;
-		margin: auto;
-		display: flex;
-		justify-content: space-between;
-	}
-	
-	.texte
-	{
-		text-align: left;
-		letter-spacing: 0.5px;
-	}
-
-	.final
-	{
-		width: 940px;
-		margin: auto;
-		text-align: left;
-		letter-spacing: 0.5px;
-	}  */
-
-	/*Menu Le chic à la Française*/
-
-	/*.chic
-	{
-		width: 1185px;
-		height: 1680px;
-		margin: 195px 158px 135px;
-	}
-	
-	/*.gourmandise
-	{
-		width: 940px;
-		margin: auto;
-		text-align: left;
-		letter-spacing: 0.5px;
-	}	
-
-	/* Menu Le délice des papilles */
-
-	/*.delice
-	{
-		width: 1185px;
-		height: 1680px;
-		margin: 195px 158px 135px;
-	}
-
-	/* Menu La palette gu goût */
-
-	/*.palette
-	{
-		width: 1185px;
-		height: 1680px;
-		margin: 195px 158px 135px;
-	}
-
-}*/

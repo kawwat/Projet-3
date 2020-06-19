@@ -1,47 +1,33 @@
-.repas,.prix,.dessert,p
+.note
 {
-	font-size: 0.5em;
-	margin: 5px 0px ;
+	width: 80%;
+	height: auto;
+	margin-bottom: 25%;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
-ul 
+.note,h2
+{
+	font-size: 1em;
+}
+
+.note p
+{
+
+	color: black;
+}
+
+ul
 {
 	padding: 0;
-	line-height: 1.7;
-	margin: 5px;
 }
 
-ul li
+.prix
 {
-	width: 	100%;
-	display: flex;
-	justify-content: space-between;
-	list-style-type: none;	
+	padding-right: 1%;
 }
 
-.repas
-{
-	text-align: left;
-	width: 90%;
-}
-
-.prix .dessert
-{
-	text-align: right;
-	width: 10%;
-}
-
-.intitule
-{
-	display: flex;
-	justify-content: space-between; 
-}
-
-.intitule p
-{
-	font-size: 0.9em;
-	margin: 0; 
-}
 
 .footer-menu
 {
@@ -55,7 +41,7 @@ h4
 	margin-left: 5px;
 }
 
-@media all and (min-width: 850px)
+@media all and (min-width: 800px)
 {
 	.note
 	{
