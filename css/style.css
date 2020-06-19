@@ -1,4 +1,4 @@
-/* couleur :
+/* couleur backgroup and h2
 header et footer fond: 87,156,135
 header et footer lettre: 252,202,70
 
@@ -15,10 +15,10 @@ Menu: #c77412
 		rgb 199,116,18
 
 Le délice des papilles:
-fond: #f9f9f9
-		rgb 249,249,249
-Menu: #83c0fa
-		rgb 131,192,250
+fond: #edefef
+		rgb 237,239,239
+Menu: #0022db
+		rgb 0,34,219
 
 La palette du goût:
 Fond: #fdfffd
@@ -139,7 +139,7 @@ a
 
 .chic /*menu 2*/
 {
-	background-color: rgb(255,245,254 );
+	background-color: rgb(255,245,254);
 	color: rgb(199,116,18);
 	text-align: center;
 	width: 44%;
@@ -155,8 +155,8 @@ a
 
 .delice /*menu 3*/
 {
-	background-color: rgb(249,249,249);
-	color: rgb(131,192,250);
+	background-color: rgb(237,239,239);
+	color: rgb(0,34,219);
 	text-align: center;
 	width: 44%;
 	height: 300px;
@@ -185,6 +185,14 @@ a
     font-family: kaushan;
 }
 
+.prochainement
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 20%;
+}
+
 .bientot /* prochainement */
 {
 	background-color: rgb(87,156,135);
@@ -192,15 +200,12 @@ a
 	text-align: center;
 	width: 40%;
 	height: 30px;
-	margin: auto;
-	margin-top: 5%;
-	margin-bottom: 20%;
 	border-radius: 20px;	
 }
 
 .bientot p 
 {
-	margin: 0;
+	font-size: 1em;
 }
 
 .pied /* footer*/
@@ -222,7 +227,7 @@ a
 
 /*****css pour l'ensemble des menu ****/
 
-.repas,.prix,.dessert,p
+.repas .prix .dessert p
 {
 	font-size: 0.5em;
 	margin: 5px 0px ;
@@ -339,8 +344,15 @@ img
 	{
 		width: 650px;
 		height: 115px;
-		font-size: 3.4em;
 	}
+
+	.bientot p
+	{
+		margin: 0;
+		padding: 22px 0px;
+		font-size: 3em;
+	}
+
 
 	.pied
 	{
