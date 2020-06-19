@@ -229,7 +229,7 @@ a
 
 /*****css pour l'ensemble des menu ****/
 
-.repas .prix .dessert p
+.repas,.prix,.dessert,p
 {
 	font-size: 0.5em;
 	margin: 5px 0px ;
