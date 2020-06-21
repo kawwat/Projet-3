@@ -221,8 +221,8 @@ a
 	margin: auto;
 	padding: 10px 20px;
 	font-size: 1em;
-	/*position: fixed;
-	bottom: 0;*/
+	position: fixed;
+	bottom: 0;
 	border-top: 2px solid #a1c181;
 	box-sizing: border-box;
 }
@@ -286,15 +286,8 @@ img
 	height: auto;
 }
 
-@media all and (min-width: 800px)
+@media all and (min-width: 1200px)
 {
-	main
-	{
-		width: 1500px;
-		height: auto;
-		margin: auto;
-	}
-
 	.header
 	{
 		width: 100%;
@@ -329,10 +322,13 @@ img
 		width: 535px;
 		height: 755px;
 		margin: 100px 50px 45px 165px;
-		/*transform: scale(1);
-		opacity: 1;
-		transition: all 400ms;*/
-	    
+	}
+	
+	.effets:hover
+	{
+		transform: scale(1.2);
+		transition: transform 600ms;
+		opacity: 0.4;
 	}
 
 	.chic,.palette
@@ -368,7 +364,7 @@ img
 	{ 
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		justify-content: center;
 	}
 
 	.row,h2

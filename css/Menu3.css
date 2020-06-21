@@ -29,12 +29,14 @@ h4
 	{
 		width: 1185px;
 		height: 1680px;
-		margin: 195px 158px 135px;
+		margin: auto;
 		font-size: 3em;
-		margin-bottom: 20%;
+		margin-top: 8%;
+		margin-bottom: 10%;
+		padding: 0px 70px;
 	}
 
-	.delice,h2
+	.delice h2
 	{
 		margin-bottom: 90px;
 	}
