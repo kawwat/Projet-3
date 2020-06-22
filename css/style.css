@@ -120,8 +120,10 @@ a
 {
 	font-size: 1em;
 }
-
-.note /*menu 1*/
+/*********************************************\
+		 			Menu 1
+\*********************************************/
+.note 
 {
 	background-color: rgb(253,225,221);
 	color: rgb(60,18,24);
@@ -136,8 +138,10 @@ a
     justify-content: center;
     font-family: devonshire;
 }
-
-.chic /*menu 2*/
+/*********************************************\
+		 			Menu 2
+\*********************************************/
+.chic
 {
 	background-color: rgb(255,245,254);
 	color: rgb(199,116,18);
@@ -152,8 +156,10 @@ a
     justify-content: center;
     font-family: croissant;
 }
-
-.delice /*menu 3*/
+/*********************************************\
+		 			Menu 3
+\*********************************************/
+.delice
 {
 	background-color: rgb(237,239,239);
 	color: rgb(0,34,219);
@@ -168,8 +174,10 @@ a
     justify-content: center;
     font-family: dancing;
 }
-
-.palette/*menu 4*/
+/*********************************************\
+		 			Menu 4
+\*********************************************/
+.palette
 {
 	background-color: rgb(253,255,253);
 	color: rgb(114,191,86);
@@ -184,7 +192,9 @@ a
     justify-content: center;
     font-family: kaushan;
 }
-
+/*********************************************\
+		 		prochainement
+\*********************************************/
 .prochainement
 {
 	display: flex;
@@ -193,24 +203,31 @@ a
 	margin-bottom: 20%;
 }
 
-.bientot /* prochainement */
+.bientot
 {
 	background-color: rgb(87,156,135);
 	color: rgb(252,202,70);
 	text-align: center;
 	width: 40%;
 	height: 30px;
-	border-radius: 20px;	
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;	
 }
 
 .bientot p 
 {
+	display: flex;
+	align-items: center;	
 	font-size: 1em;
-	margin: 0;
-	margin-top: 1%;
 }
+/*********************************************\
+\*********************************************/
 
-.pied /* footer*/
+/*********************************************\
+		 		   footer
+\*********************************************/
+.pied 
 {
 	width: 100%;
 	height: 50px;
@@ -226,9 +243,9 @@ a
 	border-top: 2px solid #a1c181;
 	box-sizing: border-box;
 }
-
-/*****css pour l'ensemble des menu ****/
-
+/*********************************************\
+		css pour l'ensemble des menus	
+\*********************************************/
 .repas,.prix,.dessert,p
 {
 	font-size: 0.9em;
@@ -311,7 +328,24 @@ img
 	{
 		margin: 0;
 	}
+	/*****************************************\
+	   			effet de soulignement 	
+	\*****************************************/
+	.soulignement
+	{
+		color: inherit;
+		text-decoration: none;
+		background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0 ,0, 0.5) 4px, transparent 5px) no-repeat;
+		background-size: 0 100%;
+		transition:  background-size .3s;
+	}
 
+	.soulignement:hover
+	{
+		background-size: 100% 100%;
+	}
+	/*****************************************\
+	\*****************************************/
 	ul
 	{
 		padding: 0 120px;
@@ -323,14 +357,17 @@ img
 		height: 755px;
 		margin: 100px 50px 45px 165px;
 	}
-	
+	/*****************************************\
+	      animation de zoom sur les menus 	
+	\*****************************************/
 	.effets:hover
 	{
 		transform: scale(1.2);
 		transition: transform 600ms;
 		opacity: 0.4;
 	}
-
+	/******************************************\	
+	\******************************************/
 	.chic,.palette
 	{
 		width: 535px;
@@ -350,8 +387,74 @@ img
 		padding: 22px 0px;
 		font-size: 3em;
 	}
+	/****************************************\
+			effet point de suspension
+	\****************************************/
+	.loader
+	{
+		display: flex;
+		padding-left: 5px;
 
+	}
+	
+	.loader span
+	{
+		width: 8px;
+    	height: 8px;
+    	margin: 30px 6px 0px 5px;
+		border-radius: 8px;
+    	background: #FDCB46;
+    	display: block;
+    	animation-name: points;
+    	animation-duration: 2s;
+    	animation-iteration-count: infinite;
+    	animation-timing-function: ease-in-out;
+	}
 
+	.loader span:nth-child(2)
+	{
+		animation-delay: 0.3s
+	}
+	
+	.loader span:nth-child(3)
+	{
+		animation-delay: 0.6s
+	}
+	
+	@keyframes points
+	{
+		50%{
+			opacity: 0;
+			transform: scale(0.7) translateY(5px);
+		}
+	}
+	/*****************************************\
+	\*****************************************/
+
+	/*****************************************\
+	   			 effet wiggle	
+	\*****************************************/
+	.wiggle:hover
+	{
+		animation: wiggle 1s infinite;
+	}
+			
+	@keyframes wiggle
+	{
+		0%{transform: rotate(0deg)}
+		10%{transform: rotate(-3deg)}
+		20%{transform: rotate(3deg)}
+		30%{transform: rotate(-3deg)}
+		40%{transform: rotate(3deg)}
+		50%{transform: rotate(-3deg)}
+		60%{transform: rotate(3deg)}
+		70%{transform: rotate(-3deg)}
+		80%{transform: rotate(3deg)}
+		90%{transform: rotate(-3deg)}
+		100%{transform: rotate(3deg)}
+	}
+	/*****************************************\
+	\*****************************************/
 	.pied
 	{
 		width: 100%;
