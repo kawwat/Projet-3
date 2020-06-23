@@ -16,6 +16,12 @@
 .palette p
 {
 	color: black;
+	font-family: 'caveat-regular';
+}
+
+.soulignement
+{
+	font-family: 'caveat-regular';
 }
 
 h4

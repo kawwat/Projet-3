@@ -1,3 +1,19 @@
+@font-face
+{
+	font-family: 'Kalam-Regular';
+	src: url('../ressources/font/Kalam-Regular.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'caveat-brush';
+	src: url('../ressources/font/caveatbrush-regular.ttf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
 .note
 {
 	width: 80%;
@@ -14,8 +30,13 @@
 
 .note p
 {
-
+	font-family: 'Kalam-Regular';
 	color: black;
+}
+
+.soulignement 
+{
+	font-family: 'caveat-brush';
 }
 
 ul
@@ -42,7 +63,7 @@ h4
 	margin-left: 5px;
 }
 
-@media all and (min-width: 800px)
+@media all and (min-width: 1200px)
 {
 	.note
 	{
