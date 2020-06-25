@@ -1,6 +1,6 @@
 .palette
 {
-	width: 100%;
+	width: 95%;
 	height: auto;
 	margin-bottom: 25%;
 	box-sizing: border-box;
@@ -28,14 +28,14 @@ h4
 	margin-left: 5px;
 }
 
-@media all and (min-width: 800px)
+@media all and (min-width: 850px)
 {
 	.palette
 	{
 		width: 1185px;
 		height: 1680px;
 		margin: auto;
-		font-size: 3em;
+		font-size: 2em;
 		margin-top: 8%;
 		margin-bottom: 10%;
 		padding: 0px 70px;
@@ -44,5 +44,25 @@ h4
 	.palette h2
 	{
 		margin-bottom: 90px;
+		font-size: 2.8em;
+	}
+
+	.repas,.prix,.dessert,p
+	{
+		margin: 5px 0px ;
+		font-size: 1em;
+	}
+
+	.intitule p
+	{
+		font-size: 1em;
+		margin: 0; 
+		font-weight: bold;
+	}
+
+	.espace
+	{
+		margin-top: 5%;
+		margin-bottom: 5%;
 	}
 }

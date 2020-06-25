@@ -345,7 +345,7 @@ img
 	height: auto;
 }
 
-@media all and (min-width: 1200px)
+@media all and (min-width: 850px)
 {
 	.header
 	{
@@ -358,7 +358,7 @@ img
 
 	.menu
 	{
-		width: 100%;
+		width: 80%;
 	}
 
 	.titre-menu
@@ -374,6 +374,28 @@ img
 	ul
 	{
 		padding: 0 120px;
+	}
+	
+	.row
+	{ 
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.row,h2
+	{
+		font-size: 1.6em;
+	}
+	
+	.francaise
+	{
+		font-size: 1.2em;
+	}
+	.lien
+	{
+		font-size: 2em;
+		margin-top: 5%;
 	}
 	/*****************************************\
 	   			effet de soulignement 	
@@ -403,19 +425,13 @@ img
 	/*****************************************\
 	     		 tailles des menus
 	\*****************************************/
-	.note,.delice
+	.menus
 	{
-		width: 535px;
+		width: 45%;
+		max-width: 535px;
 		height: 755px;
-		margin: 100px 50px 45px 165px;
+		margin: 0;
 	}
-	.chic,.palette
-	{
-		width: 535px;
-		height: 755px;
-		margin: 100px 165px 45px 50px;
-	}
-
 	.bientot
 	{
 		width: 650px;
@@ -502,28 +518,5 @@ img
 		height: 140px;
 		font-size: 3em;
 		padding: 35px 30px;
-	}
-
-	.row
-	{ 
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	.row,h2
-	{
-		margin-top: 2%;
-		font-size: 1.6em;
-	}
-	
-	.francaise
-	{
-		font-size: 1.2em;
-	}
-	.lien
-	{
-		font-size: 2em;
-		margin-top: 5%;
 	}
 }	
