@@ -33,6 +33,15 @@
 	color: black;
 }
 
+i
+{
+	background: #f05060;
+    background: linear-gradient(86deg, #f05060 30%, #f6916a 62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1, 1.2);
+}
+
 .soulignement 
 {
 	font-family: 'caveat-brush';
