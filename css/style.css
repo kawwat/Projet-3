@@ -1,35 +1,3 @@
-/* couleur backgroup and h2
-header et footer fond: 87,156,135
-header et footer lettre: 252,202,70
-
-La note enchantée:
-Fond: #fde1dd
-		rgb 253,225,221
-texte: #3c1218
-		rgb 60,18,24
-
-Le chic à la française: 
-Fond: #fff5fe
-		rgb 255,245,254 
-Menu: #c77412
-		rgb 199,116,18
-
-Le délice des papilles:
-fond: #edefef
-		rgb 237,239,239
-Menu: #0022db
-		rgb 0,34,219
-
-La palette du goût:
-Fond: #fdfffd
-		rgb 253,255,253
-Texte: #72bf56
-		rgb 114,191,86 
-
-color border top and bottom:
-		#a1c181
-		rgb 161 193 129
-*/
 /*********************************************\
 		 		police d'ecriture
 \*********************************************/
@@ -89,8 +57,6 @@ color border top and bottom:
 	font-weight: normal;
 	font-style: normal;
 }
-
-
 /*********************************************\
 \*********************************************/
 body
